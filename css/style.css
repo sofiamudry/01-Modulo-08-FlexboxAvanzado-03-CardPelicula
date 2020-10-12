@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #DDD;
+    height: 100vh;
+    font-family: 'mulish', sans-serif;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 400px;
+    width: 800px;
+    padding: 20px;
+    flex-direction: row;
+    background-color: #FFF;
+    border: 2px solid #999;
+}
+
+.poster {
+    height: 360px;
+    width: 360px;
+    background-image: url(../images/harry-potter-piedra-filosofal.jpeg);
+    background-size: cover;
+    border: 2px solid #999;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100%;
+    justify-content: space-between;
+    border: 2px solid #999;
+    margin-left: 20px;
+    padding: 15px;
+}
+
+header {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.description {
+    color: #333;
+}
+
+footer {
+    color: #555;
+}
